@@ -14,7 +14,7 @@ print(scores["Elocin03"], scores[pseudo])
 for pseudo in sorted(scores):
     print(pseudo)
 # par valeur
-for value in sorted(scores):
+for value in sorted(scores.values()):
     print(str(value))
 # afficher tout (clé + valeur)
 for key, value in scores.items() :
