@@ -27,7 +27,10 @@ middle_rank = 0
 # création d'une boucle for pour additionner les valeurs
 for value in rank.values():
     middle_rank += value
+# afficher la valeur de la variable
 print(middle_rank)
+# diviser par le nombre de valeur pour avoir la moyenne
 middle_rank /= 5
-print(middle_rank)
+# afficher la moyenne
+print("Les membres du club sportif ont un rang moyen de : " + float(middle_rank))
 
