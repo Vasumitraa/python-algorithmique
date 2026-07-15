@@ -11,7 +11,8 @@ print(scores["Elocin03"], scores[pseudo])
 
 # pour aller plus loin, j'aimerais trouver un moyen de trier:
 # par clé
-print(sorted(scores))
+for key in scores:
+    print(sorted(scores))
 # par valeur
 for value in sorted(scores):
     print(str(value))
