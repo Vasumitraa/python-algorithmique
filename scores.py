@@ -3,7 +3,7 @@ scores = {"MokoSempai": 16, "Grungi": 30, "Elocin03": 56}
 # créer une variable "pseudo" avec input utilisateur
 pseudo = input("Quel est votre pseudo ? ")
 # créer une variable "score" avec input utilisateur
-score = input("Quel est votre score ? ")
+score = int(input("Quel est votre score ? "))
 # faire rentrer les deux input dans le dictionnaire : dict["clé"] = valeur
 scores[pseudo] = score
 # afficher le score de "Elocin03" ainsi que le score du nouveau pseudo entré
