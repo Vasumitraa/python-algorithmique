@@ -32,5 +32,5 @@ print(middle_rank)
 # diviser par le nombre de valeur pour avoir la moyenne
 middle_rank /= 5
 # afficher la moyenne
-print("Les membres du club sportif ont un rang moyen de : " + float(middle_rank))
+print("Les membres du club sportif ont un rang moyen de : " + str(middle_rank))
 
