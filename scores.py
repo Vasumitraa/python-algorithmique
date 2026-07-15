@@ -17,10 +17,11 @@ for pseudo in sorted(scores):
 for value in sorted(scores.values()):
     print(str(value))
 # afficher tout (clé + valeur)
-for key, value in scores.items() :
+for key, value in scores.items():
+    print (key + " : " + str(value))
+# trier l'ensemble par clé
+for key, value in sorted(scores.items()):
     print (key + " : " + str(value))
 # trier l'ensemble par valeur
-
-# trier l'ensemble par clé
  
 # comment entrer chaque nouvelle entrée utilisateur dans le dictionnaire ? Boucle "while" ?
