@@ -13,7 +13,8 @@ print(scores["Elocin03"], scores[pseudo])
 # par clé
 print(sorted(scores))
 # par valeur
-
+for value in sorted(scores):
+    print (value)
 # afficher tout (clé + valeur)
 for key, value in scores.items() :
     print (key + " : " + str(value))
