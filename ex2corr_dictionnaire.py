@@ -12,3 +12,5 @@ print(sum_rank)
 average_rank = sum_rank / len(club_rank)
 # afficher la moyenne
 print("Les membres du club sportif ont un rang moyen de : " + str(average_rank))
+
+# est-ce qu'il existerait une méthode encore plus adéquate ? 
