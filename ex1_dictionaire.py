@@ -9,11 +9,11 @@ scores[pseudo] = score
 # afficher le score de "Elocin03" ainsi que le score du nouveau pseudo entré
 print(scores["Elocin03"], scores[pseudo])
 
-# pour aller plus loin, j'aimerais trouver un moyen de trier:
-# par clé
+# pour aller plus loin, j'aimerais trouver un moyen de: 
+# trier par clé
 for pseudo in sorted(scores):
     print(pseudo)
-# par valeur
+# trier par valeur
 for value in sorted(scores.values()):
     print(str(value))
 # afficher tout (clé + valeur)
