@@ -10,7 +10,7 @@ user_score = input("Quel est votre score ? ")
 user_dict[user_name] = user_score
 print(user_dict)
 
-while user_dict < 5:
+while int(user_dict) < 5:
     user_name = input("Quel est votre nom d'utilisateur ? ")
     user_score = input("Quel est votre score ? ")
     print(user_dict)
