@@ -1,4 +1,3 @@
-
 # comment entrer chaque nouvelle entrée utilisateur dans le dictionnaire ? Boucle "while" ?
 # création d'un dictionnaire vide :
 user_dict = {}
