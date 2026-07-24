@@ -16,4 +16,5 @@ while user_name != "null":
     user_dict[user_name] = user_score
     print(user_dict)
 
-print(f"Voici les différents joueurs enregistrés, ainsi que leurs scores : {user_dict}")
+if user_name == "null":
+    print(f"Voici les différents joueurs enregistrés, ainsi que leurs scores : {len(user_dict) - 1}")
