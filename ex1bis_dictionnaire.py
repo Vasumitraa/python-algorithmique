@@ -11,10 +11,12 @@ print(user_dict)
 
 # faire une boucle pour que chaque entrée aille dans le dictionnaire :
 while user_name != "null":
+    if user_name == "null":
+        break
     user_name = input("Quel est votre nom d'utilisateur ? ")
     user_score = input("Quel est votre score ? ")
     user_dict[user_name] = user_score
     print(user_dict)
 
 if user_name == "null":
-    print(f"Voici les différents joueurs enregistrés, ainsi que leurs scores : {user_dict.pop}")
+    print(f"Voici les différents joueurs enregistrés, ainsi que leurs scores : {user_dict}")
